@@ -1,0 +1,143 @@
+.phases3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:6rem;
+}
+
+.colone{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbox{
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+    background-color: #1B2C4F;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.div1::before {
+    content: '-';
+    position: absolute;
+    width: 360px;
+    border-top: 2px dashed #a09d9d;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    z-index: -1;
+  }
+
+.pro1{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 10px;
+    gap:1rem
+}
+
+
+.butt{
+    width: 100px;
+    height: 30px;
+    background-color: #111729;
+    border-radius: 20px;
+    border:none;
+    color: white;
+}
+
+.coltwo{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.onebox{
+    width: 360px;
+    height: 220px;
+    background-color: #1B2C4F;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.twobox{
+    width: 360px;
+    height: 220px;
+    background-color: #1B2C4F;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3rem
+}
+
+.onebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+
+.ll{
+    display: flex;
+    flex-direction: column;
+}
+
+.rr{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.boxxx{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #2C3A58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow{
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #409BEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstcol{
+    display: flex;
+    flex-direction: column;
+}
+.secondcol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:3rem;
+}
+
+.bluespin{
+    width: 75px;
+    height: 75px;
+    border-top:15px solid blue ;
+    border-bottom: 15px solid blue;
+    border-left: 15px solid blue;
+    border-right: 15px solid white;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+
+}

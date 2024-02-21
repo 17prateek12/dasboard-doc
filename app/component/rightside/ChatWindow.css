@@ -1,0 +1,135 @@
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    background-color: #1C2A4E;
+    border-radius: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sender{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profilepic{
+    background-color: #E8F8BB;
+    margin-left: 40px;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.call{
+    background-color: #2C3A58;
+    color: #409BEE;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.line{
+    width: 400px;
+    background-color: #FFFFFF33;
+    border: none;
+    height: 1px;
+}
+
+.doctormes{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.pateintmess{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+ 
+}
+
+.profilepic2{
+    background-color: #E8F8BB;
+    margin-left: 30px;
+    margin-top: 4rem; 
+}
+
+.profilepic3{
+    background-color: lightblue;
+    margin-right: 30px;
+    margin-top: 3rem;
+}
+
+.message1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.message2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.messsagebox{
+    border-radius: 14px;
+    padding: 14px;
+    margin: 12px;
+    display: inline-block;
+    max-width: 50%;
+    word-wrap: break-word;
+    margin-top: -2px;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: auto;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+.mic {
+    position: absolute;
+    left: 20px;
+    height: 32px;
+    width: 32px;
+}
+  
+  
+.searchbar {
+    background-color: #2C3A58;
+    width: 440px;
+    padding-right: 60px;
+    height: 72px;
+    border-radius: 20px;
+    padding-left: 60px;
+    border: none;
+}
+  
+.sent {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: #409BEE;
+    position: relative;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
